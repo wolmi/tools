@@ -4,7 +4,9 @@
   "description": "Docker image to use in a initiContainer with a collection of tools",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "standard-version",
+    "pre-release": "standard-version --prerelease $(git rev-parse --abbrev-ref HEAD) --skip.changelog --release-as patch"
   },
   "repository": {
     "type": "git",

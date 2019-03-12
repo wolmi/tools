@@ -1,0 +1,25 @@
+{
+  "name": "tools",
+  "version": "1.0.0",
+  "description": "Docker image to use in a initiContainer with a collection of tools",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wolmi/tools.git"
+  },
+  "keywords": [
+    "tools"
+  ],
+  "author": "Miquel Ramon Ortega Tido",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/wolmi/tools/issues"
+  },
+  "homepage": "https://github.com/wolmi/tools#readme",
+  "devDependencies": {
+    "standard-version": "^5.0.1"
+  }
+}
